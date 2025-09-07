@@ -13,7 +13,7 @@ namespace usuarios
     public class TabelaUsuarios
     {
         
-        public string RotaTabelaDeUsuarios { get; set; } = @"C:\Users\jotadev\Documents\Teste de arquivos com c#\Tabelas\TabelaUsuarios.csv";
+        public string RotaTabelaDeUsuarios { get; set; } =null!;
         public string[] TabelaConfigurada { get; set; } = null!;
         public void AddNewUsuario()
         { 
@@ -45,5 +45,6 @@ namespace usuarios
             
         }
     }
+
 
 }
